@@ -1,0 +1,34 @@
+.slider .indicators > .indicator
+{
+    background-color: rgba(21, 93, 252, .30);
+    cursor: pointer;
+}
+
+.slider .indicators > .indicator.active
+{
+    background-color: rgb(21, 93, 252);
+}
+
+@media (width >= 640px)
+{
+    .cards-divide
+    {
+        width: calc((100% - (1rem * 2)) / 3);
+    }
+}
+
+@media (width >= 1024px)
+{
+    .cards-divide
+    {
+        width: calc((100% - (1rem * 4)) / 4);
+    }
+}
+
+@media (width >= 1280px)
+{
+    .cards-divide
+    {
+        width: calc((100% - (1rem * 4)) / 5);
+    }
+}

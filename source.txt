@@ -1,1 +1,16 @@
-"Source: https://dribbble.com/shots/26855201-Ecommerce-Homepage-UI-Design-Animation" 
+Source: https://dribbble.com/shots/26855201-Ecommerce-Homepage-UI-Design-Animation
+Icon:
+- Cart: <a href="https://www.flaticon.com/free-icons/shopping-bag" title="shopping bag icons">Shopping bag icons created by Abiyoga Pratama - Flaticon</a>
+- Sparkle: <a href="https://www.flaticon.com/free-icons/sparkle" title="sparkle icons">Sparkle icons created by SeyfDesigner - Flaticon</a>
+- Search: <a href="https://www.flaticon.com/free-icons/ui-ux" title="ui ux icons">Ui ux icons created by Shuvo.Das - Flaticon</a>
+- User: <a href="https://www.flaticon.com/free-icons/private-account" title="private account icons">Private account icons created by Bingge Liu - Flaticon</a>
+- Discount: <a href="https://www.flaticon.com/free-icons/coupon" title="coupon icons">Coupon icons created by Freepik - Flaticon</a>
+- Shirt: <a href="https://www.flaticon.com/free-icons/quality-control" title="quality control icons">Quality control icons created by Freepik - Flaticon</a>
+- Instagram: <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by cobynecz - Flaticon</a>
+- Facebook: <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+- TikTok: <a href="https://www.flaticon.com/free-icons/tiktok" title="tiktok icons">Tiktok icons created by cobynecz - Flaticon</a>
+- Menu: <a href="https://www.flaticon.com/free-icons/times-square" title="times square icons">Times square icons created by Freepik - Flaticon</a>
+- Caret: <a href="https://www.flaticon.com/free-icons/dropdown-arrow" title="dropdown arrow icons">Dropdown arrow icons created by Graphics Plazza - Flaticon</a>
+- Star: <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+- Rating: <a href="https://www.flaticon.com/free-icons/half-star" title="half star icons">Half star icons created by Pixel perfect - Flaticon</a>
+- Menu: <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by SeyfDesigner - Flaticon</a>
