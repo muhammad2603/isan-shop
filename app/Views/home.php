@@ -63,77 +63,12 @@
                     <span class="align-top">*</span><span>Persediaan Lengkap</span>
                 </div>
             </div>
-            <div class="item showcase relative sm:w-full lg:w-[780px] xl:w-[650px] xl:h-[300px] 2xl:w-[780px] 2xl:h-[350px] p-[18px] sm:p-[40px] flex flex-col 2xl:grow-1 justify-between shrink-0 will-change-transform transition duration-700 bg-gray-100 bg-cover bg-right bg-no-repeat bg-[url(/assets/images/products-showcase/xiaomi-tv/xiaomi-google-tv.webp)] rounded-xl overflow-hidden transition duration-150 hover:shadow-md">
-                <div class="overlay absolute inset-0 bg-black/40"></div>
-                <div class="product-details relative w-[40%] sm:w-[50%] flex flex-col">
-                    <h2 class="text-sm sm:text-xl xl:text-lg text-white text-shadow-lg/10">Xiaomi Google TV</h2>
-                    <span class="mt-1 sm:mt-0 sm:text-xl font-semibold text-white text-shadow-lg/10">Hanya Rp. 2.699.000</span>
-                    <span class="features mt-2 text-[10px] sm:text-[12px] xl:text-[10px] 2xl:text-[12px] text-white leading-4 sm:leading-[1.25rem] text-shadow-lg/10">Layar 43 Inci. Resolusi FHD 1920 x 1080 piksel. Prosesor Quad A55. RAM 1.5GB + Storage 8GB.</span>
-                    <a href="<?= base_url('/product/view/xiaomi-google-tv') ?>" class="mt-4 sm:mt-5 xl:mt-4 inline-block w-fit py-1 px-3 sm:py-1.5 sm:px-5 text-[10px] sm:text-xs xl:text-sm text-white font-bold tracking-wide border-1 border-solid border-white hover:border-transparent hover:bg-gray-300 hover:text-white transition duration-300 rounded-full tracking-wider text-shadow-md">Beli Sekarang</a>
-                </div>
-                <div class="more-details relative mt-6 sm:mt-4 xl:mt-0 text-[10px] sm:text-xs text-white text-shadow-lg/10">
-                    <span class="align-top">*</span><span>Persediaan Lengkap</span>
-                </div>
-            </div>
-            <div class="item showcase relative sm:w-full lg:w-[780px] xl:w-[650px] xl:h-[300px] 2xl:w-[780px] 2xl:h-[350px] p-[18px] sm:p-[40px] flex flex-col 2xl:grow-1 justify-between shrink-0 will-change-transform transition duration-700 bg-gray-100 bg-cover bg-right bg-no-repeat bg-[url(/assets/images/products-showcase/xiaomi-tv/xiaomi-google-tv.webp)] rounded-xl overflow-hidden transition duration-150 hover:shadow-md">
-                <div class="overlay absolute inset-0 bg-black/40"></div>
-                <div class="product-details relative w-[40%] sm:w-[50%] flex flex-col">
-                    <h2 class="text-sm sm:text-xl xl:text-lg text-white text-shadow-lg/10">Xiaomi Google TV</h2>
-                    <span class="mt-1 sm:mt-0 sm:text-xl font-semibold text-white text-shadow-lg/10">Hanya Rp. 2.699.000</span>
-                    <span class="features mt-2 text-[10px] sm:text-[12px] xl:text-[10px] 2xl:text-[12px] text-white leading-4 sm:leading-[1.25rem] text-shadow-lg/10">Layar 43 Inci. Resolusi FHD 1920 x 1080 piksel. Prosesor Quad A55. RAM 1.5GB + Storage 8GB.</span>
-                    <a href="<?= base_url('/product/view/xiaomi-google-tv') ?>" class="mt-4 sm:mt-5 xl:mt-4 inline-block w-fit py-1 px-3 sm:py-1.5 sm:px-5 text-[10px] sm:text-xs xl:text-sm text-white font-bold tracking-wide border-1 border-solid border-white hover:border-transparent hover:bg-gray-300 hover:text-white transition duration-300 rounded-full tracking-wider text-shadow-md">Beli Sekarang</a>
-                </div>
-                <div class="more-details relative mt-6 sm:mt-4 xl:mt-0 text-[10px] sm:text-xs text-white text-shadow-lg/10">
-                    <span class="align-top">*</span><span>Persediaan Lengkap</span>
-                </div>
-            </div>
-            <div class="item showcase relative sm:w-full lg:w-[780px] xl:w-[650px] xl:h-[300px] 2xl:w-[780px] 2xl:h-[350px] p-[18px] sm:p-[40px] flex flex-col 2xl:grow-1 justify-between shrink-0 will-change-transform transition duration-700 bg-gray-100 bg-cover bg-right bg-no-repeat bg-[url(/assets/images/products-showcase/xiaomi-tv/xiaomi-google-tv.webp)] rounded-xl overflow-hidden transition duration-150 hover:shadow-md">
-                <div class="overlay absolute inset-0 bg-black/40"></div>
-                <div class="product-details relative w-[40%] sm:w-[50%] flex flex-col">
-                    <h2 class="text-sm sm:text-xl xl:text-lg text-white text-shadow-lg/10">Xiaomi Google TV</h2>
-                    <span class="mt-1 sm:mt-0 sm:text-xl font-semibold text-white text-shadow-lg/10">Hanya Rp. 2.699.000</span>
-                    <span class="features mt-2 text-[10px] sm:text-[12px] xl:text-[10px] 2xl:text-[12px] text-white leading-4 sm:leading-[1.25rem] text-shadow-lg/10">Layar 43 Inci. Resolusi FHD 1920 x 1080 piksel. Prosesor Quad A55. RAM 1.5GB + Storage 8GB.</span>
-                    <a href="<?= base_url('/product/view/xiaomi-google-tv') ?>" class="mt-4 sm:mt-5 xl:mt-4 inline-block w-fit py-1 px-3 sm:py-1.5 sm:px-5 text-[10px] sm:text-xs xl:text-sm text-white font-bold tracking-wide border-1 border-solid border-white hover:border-transparent hover:bg-gray-300 hover:text-white transition duration-300 rounded-full tracking-wider text-shadow-md">Beli Sekarang</a>
-                </div>
-                <div class="more-details relative mt-6 sm:mt-4 xl:mt-0 text-[10px] sm:text-xs text-white text-shadow-lg/10">
-                    <span class="align-top">*</span><span>Persediaan Lengkap</span>
-                </div>
-            </div>
-            <div class="item showcase relative sm:w-full lg:w-[780px] xl:w-[650px] xl:h-[300px] 2xl:w-[780px] 2xl:h-[350px] p-[18px] sm:p-[40px] flex flex-col 2xl:grow-1 justify-between shrink-0 will-change-transform transition duration-700 bg-gray-100 bg-cover bg-right bg-no-repeat bg-[url(/assets/images/products-showcase/xiaomi-tv/xiaomi-google-tv.webp)] rounded-xl overflow-hidden transition duration-150 hover:shadow-md">
-                <div class="overlay absolute inset-0 bg-black/40"></div>
-                <div class="product-details relative w-[40%] sm:w-[50%] flex flex-col">
-                    <h2 class="text-sm sm:text-xl xl:text-lg text-white text-shadow-lg/10">Xiaomi Google TV</h2>
-                    <span class="mt-1 sm:mt-0 sm:text-xl font-semibold text-white text-shadow-lg/10">Hanya Rp. 2.699.000</span>
-                    <span class="features mt-2 text-[10px] sm:text-[12px] xl:text-[10px] 2xl:text-[12px] text-white leading-4 sm:leading-[1.25rem] text-shadow-lg/10">Layar 43 Inci. Resolusi FHD 1920 x 1080 piksel. Prosesor Quad A55. RAM 1.5GB + Storage 8GB.</span>
-                    <a href="<?= base_url('/product/view/xiaomi-google-tv') ?>" class="mt-4 sm:mt-5 xl:mt-4 inline-block w-fit py-1 px-3 sm:py-1.5 sm:px-5 text-[10px] sm:text-xs xl:text-sm text-white font-bold tracking-wide border-1 border-solid border-white hover:border-transparent hover:bg-gray-300 hover:text-white transition duration-300 rounded-full tracking-wider text-shadow-md">Beli Sekarang</a>
-                </div>
-                <div class="more-details relative mt-6 sm:mt-4 xl:mt-0 text-[10px] sm:text-xs text-white text-shadow-lg/10">
-                    <span class="align-top">*</span><span>Persediaan Lengkap</span>
-                </div>
-            </div>
-            <div class="item showcase relative sm:w-full lg:w-[780px] xl:w-[650px] xl:h-[300px] 2xl:w-[780px] 2xl:h-[350px] p-[18px] sm:p-[40px] flex flex-col 2xl:grow-1 justify-between shrink-0 will-change-transform transition duration-700 bg-gray-100 bg-cover bg-right bg-no-repeat bg-[url(/assets/images/products-showcase/xiaomi-tv/xiaomi-google-tv.webp)] rounded-xl overflow-hidden transition duration-150 hover:shadow-md">
-                <div class="overlay absolute inset-0 bg-black/40"></div>
-                <div class="product-details relative w-[40%] sm:w-[50%] flex flex-col">
-                    <h2 class="text-sm sm:text-xl xl:text-lg text-white text-shadow-lg/10">Xiaomi Google TV</h2>
-                    <span class="mt-1 sm:mt-0 sm:text-xl font-semibold text-white text-shadow-lg/10">Hanya Rp. 2.699.000</span>
-                    <span class="features mt-2 text-[10px] sm:text-[12px] xl:text-[10px] 2xl:text-[12px] text-white leading-4 sm:leading-[1.25rem] text-shadow-lg/10">Layar 43 Inci. Resolusi FHD 1920 x 1080 piksel. Prosesor Quad A55. RAM 1.5GB + Storage 8GB.</span>
-                    <a href="<?= base_url('/product/view/xiaomi-google-tv') ?>" class="mt-4 sm:mt-5 xl:mt-4 inline-block w-fit py-1 px-3 sm:py-1.5 sm:px-5 text-[10px] sm:text-xs xl:text-sm text-white font-bold tracking-wide border-1 border-solid border-white hover:border-transparent hover:bg-gray-300 hover:text-white transition duration-300 rounded-full tracking-wider text-shadow-md">Beli Sekarang</a>
-                </div>
-                <div class="more-details relative mt-6 sm:mt-4 xl:mt-0 text-[10px] sm:text-xs text-white text-shadow-lg/10">
-                    <span class="align-top">*</span><span>Persediaan Lengkap</span>
-                </div>
-            </div>
         </div>
         <!-- Akhir Showcase Items -->
         <!-- Indicators -->
         <div class="indicators w-fit mt-6 2xl:mt-10 mx-auto py-[6px] px-[10px] sm:py-[12px] lg:py-2 sm:px-[22px] lg:px-4 2xl:py-3 2xl:px-5 flex gap-2 2xl:gap-2.5 border-2 border-solid border-blue-600 rounded-full">
             <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full active" data-index="0"></span>
             <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="1"></span>
-            <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="2"></span>
-            <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="3"></span>
-            <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="4"></span>
-            <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="5"></span>
-            <span class="indicator inline-block w-[10px] h-[10px] sm:w-[12px] xl:w-[8px] sm:h-[12px] xl:h-[8px] lg:w-[10px] lg:h-[10px] 2xl:w-[14px] 2xl:h-[14px] rounded-full" data-index="6"></span>
         </div>
         <!-- Akhir Indicators -->
     </section>
@@ -147,10 +82,10 @@
         </div>
         <!-- Akhir Title -->
         <!-- List Categories Popular -->
-        <section class="list-categories-popular relative mt-6">
+        <section class="list-categories-popular slider-w-next-prev relative mt-6">
             <!-- List Items Categories -->
-            <div class="list-items flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9 overflow-hidden">
-                <div class="list">
+            <div class="list-items slider-items flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9 overflow-hidden">
+                <div class="item">
                     <a href="<?= base_url('/category/elektronik') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
                             <img src="/assets/images/tv.png" class="w-full h-full object-cover" alt="TV Image">
@@ -158,7 +93,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Elektronik</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/jam-tangan') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
                             <img src="/assets/images/jam-tangan.png" class="w-full h-full object-cover" alt="Jam Tangan Image">
@@ -166,15 +101,15 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Jam Tangan</span>
                 </div>
-                <div class="list">
-                    <a href="<?= base_url('/category/fashian') ?>">
+                <div class="item">
+                    <a href="<?= base_url('/category/fashion') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/jas.png" class="w-full h-full object-cover" alt="Jas Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Fashion</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/baju-kemeja') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/kemeja.png" class="w-full h-full object-cover" alt="Kemeja Image">
@@ -182,7 +117,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Baju Kemeja</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/pakaian-dalam') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/celana-dalam.png" class="w-full h-full object-cover" alt="Celana Dalam Image">
@@ -190,7 +125,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Pakaian Dalam</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/kosmetik') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/kosmetik.png" class="w-full h-full object-cover" alt="Kosmetik Image">
@@ -198,7 +133,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Kosmetik</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/celana') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/celana.png" class="w-full h-full object-cover" alt="Celana Image">
@@ -206,7 +141,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Celana</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/perabotan-rumah') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/perabotan-rumah.png" class="w-full h-full object-cover" alt="Perabotan Rumah Image">
@@ -214,7 +149,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Perabotan Rumah</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/hiasan') ?>">
                         <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/hiasan.webp" class="w-full h-full object-cover rounded-full" alt="Hiasan Image">
@@ -222,7 +157,7 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Hiasan</span>
                 </div>
-                <div class="list">
+                <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
                         <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
@@ -235,14 +170,14 @@
             <!-- Indicators -->
             <div class="indicators w-full flex justify-between absolute top-[30%] translate-y-[-50%]">
                 <!-- Previous Button -->
-                <button class="prev-btn bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
+                <button type="button" class="prev-btn bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
                     <figure class="rotate-90 w-[16px]">
                         <img src="/assets/icons/down-arrow.png" />
                     </figure>
                 </button>
                 <!-- Akhir Previous Button -->
                 <!-- Next Button -->
-                <button class="next-btn bg-white p-2 absolute right-0 sm:right-[-16px] rounded-full shadow-md cursor-pointer">
+                <button type="button" class="next-btn bg-white p-2 absolute right-0 sm:right-[-16px] rounded-full shadow-md cursor-pointer">
                     <figure class="-rotate-90 w-[16px]">
                         <img src="/assets/icons/down-arrow.png" />
                     </figure>
@@ -1444,5 +1379,7 @@
 <link rel="stylesheet" href="/assets/css/custom-utilities.css">
 <!-- Slider JS -->
 <script src="<?= base_url('/assets/js/slider.js') ?>"></script>
+<!-- Slider Buttons JS -->
+<script src="<?= base_url('/assets/js/slider-buttons.js') ?>"></script>
 <!-- Akhir Main Content -->
 <?= $this->endSection() ?>
