@@ -1,18 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const slider = document.querySelector('.slider-w-next-prev'),
-        sliderItems = document.querySelectorAll('.slider-w-next-prev .slider-items > .item'),
+    const slider = document.querySelector('.slider-w-next-prev .slider-items'),
+        sliderWidth = slider.getBoundingClientRect().width,
+        sliderItems = slider.querySelectorAll('.item'),
         sliderItemWidth = sliderItems[0].getBoundingClientRect().width,
         prevBtn = document.querySelector('.slider-w-next-prev .indicators .prev-btn'),
-        nextBtn = document.querySelector('.slider-w-next-prev .indicators .next-btn');
+        nextBtn = document.querySelector('.slider-w-next-prev .indicators .next-btn'),
+        totalCurrentItems = 8;
 
-    let x = 3;
+    console.log('Sisa bagi total item dengan item yang ditampilkan:', sliderItems.length / totalCurrentItems)
 
     nextBtn.addEventListener('click', () => {
 
-        sliderItems.forEach(item => item.style.transform = `translateX(-${(120 * x) + (20 * x)}px)`)
+        let calcMove = (sliderItemWidth * sliderItems.length) + (20 * (sliderItems.length - 1)) - sliderWidth;
 
-        x += 3;
+        // console.log("Hasil Kalkulasi:", calcMove)
+        // console.log("Lebar Slider:", sliderWidth)
+        // console.log(calcMove >= sliderWidth ? "Pergeseran harus penuh dari total kategori" : "Pergeseran sudah mencapai akhir")
+
+        slider.style.left = `-${calcMove}px`;
 
     })
 

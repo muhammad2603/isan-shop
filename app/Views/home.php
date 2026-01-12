@@ -74,7 +74,7 @@
     </section>
     <!-- Akhir Product Showcase -->
     <!-- Popular Categories -->
-    <section class="popular-categories mt-[60px]">
+    <section class="popular-categories mt-[60px] slider-w-next-prev relative">
         <!-- Title -->
         <div class="title flex items-center sm:items-start justify-between">
             <h2 class="sm:text-2xl xl:text-xl 2xl:text-2xl">Kategori Populer</h2>
@@ -82,9 +82,9 @@
         </div>
         <!-- Akhir Title -->
         <!-- List Categories Popular -->
-        <section class="list-categories-popular slider-w-next-prev relative mt-6">
+        <section class="list-categories-popular mt-6 overflow-hidden">
             <!-- List Items Categories -->
-            <div class="list-items slider-items flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9 overflow-hidden">
+            <div class="list-items slider-items relative flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9">
                 <div class="item">
                     <a href="<?= base_url('/category/elektronik') ?>">
                         <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
@@ -165,28 +165,84 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita 3</span>
+                </div>
             </div>
             <!-- Akhir List Items Categories -->
-            <!-- Indicators -->
-            <div class="indicators w-full flex justify-between absolute top-[30%] translate-y-[-50%]">
-                <!-- Previous Button -->
-                <button type="button" class="prev-btn bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
-                    <figure class="rotate-90 w-[16px]">
-                        <img src="/assets/icons/down-arrow.png" />
-                    </figure>
-                </button>
-                <!-- Akhir Previous Button -->
-                <!-- Next Button -->
-                <button type="button" class="next-btn bg-white p-2 absolute right-0 sm:right-[-16px] rounded-full shadow-md cursor-pointer">
-                    <figure class="-rotate-90 w-[16px]">
-                        <img src="/assets/icons/down-arrow.png" />
-                    </figure>
-                </button>
-                <!-- Akhir Next Button -->
-            </div>
-            <!-- Akhir Indicators -->
         </section>
         <!-- Akhir List Categories Popular -->
+        <!-- Indicators -->
+        <div class="indicators w-full flex justify-between absolute top-[50%] translate-y-[-50%]">
+            <!-- Previous Button -->
+            <button type="button" class="prev-btn bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
+                <figure class="rotate-90 w-[16px]">
+                    <img src="/assets/icons/down-arrow.png" />
+                </figure>
+            </button>
+            <!-- Akhir Previous Button -->
+            <!-- Next Button -->
+            <button type="button" class="next-btn bg-white p-2 absolute right-0 sm:right-[-16px] rounded-full shadow-md cursor-pointer">
+                <figure class="-rotate-90 w-[16px]">
+                    <img src="/assets/icons/down-arrow.png" />
+                </figure>
+            </button>
+            <!-- Akhir Next Button -->
+        </div>
+        <!-- Akhir Indicators -->
     </section>
     <!-- Akhir Popular Categories -->
     <!-- Flash Sale -->
