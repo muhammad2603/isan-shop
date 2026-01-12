@@ -221,6 +221,14 @@
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita 3</span>
                 </div>
+                <div class="item">
+                    <a href="<?= base_url('/category/rok-wanita') ?>">
+                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        </figure>
+                    </a>
+                    <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
+                </div>
             </div>
             <!-- Akhir List Items Categories -->
         </section>
