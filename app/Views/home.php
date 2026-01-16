@@ -236,7 +236,7 @@
         <!-- Indicators -->
         <div class="indicators w-full flex justify-between absolute top-[50%] translate-y-[-50%]">
             <!-- Previous Button -->
-            <button type="button" class="prev-btn bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
+            <button type="button" class="prev-btn hidden bg-white p-2 absolute left-0 sm:left-[-16px] rounded-full shadow-md cursor-pointer">
                 <figure class="rotate-90 w-[16px]">
                     <img src="/assets/icons/down-arrow.png" />
                 </figure>
