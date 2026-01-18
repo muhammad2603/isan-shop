@@ -151,7 +151,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/hiasan') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/hiasan.webp" class="w-full h-full object-cover rounded-full" alt="Hiasan Image">
                         </figure>
                     </a>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -175,7 +175,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -191,7 +191,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -223,7 +223,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
