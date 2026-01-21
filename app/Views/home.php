@@ -87,7 +87,7 @@
             <div class="list-items slider-items relative flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9">
                 <div class="item">
                     <a href="<?= base_url('/category/elektronik') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
                             <img src="/assets/images/tv.png" class="w-full h-full object-cover" alt="TV Image">
                         </figure>
                     </a>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/jam-tangan') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
                             <img src="/assets/images/jam-tangan.png" class="w-full h-full object-cover" alt="Jam Tangan Image">
                         </figure>
                     </a>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/fashion') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/jas.png" class="w-full h-full object-cover" alt="Jas Image">
                         </figure>
                     </a>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/baju-kemeja') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/kemeja.png" class="w-full h-full object-cover" alt="Kemeja Image">
                         </figure>
                     </a>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/pakaian-dalam') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/celana-dalam.png" class="w-full h-full object-cover" alt="Celana Dalam Image">
                         </figure>
                     </a>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/kosmetik') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/kosmetik.png" class="w-full h-full object-cover" alt="Kosmetik Image">
                         </figure>
                     </a>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/celana') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/celana.png" class="w-full h-full object-cover" alt="Celana Image">
                         </figure>
                     </a>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/perabotan-rumah') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/perabotan-rumah.png" class="w-full h-full object-cover" alt="Perabotan Rumah Image">
                         </figure>
                     </a>
@@ -151,7 +151,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/hiasan') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/hiasan.webp" class="w-full h-full object-cover rounded-full" alt="Hiasan Image">
                         </figure>
                     </a>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -175,7 +175,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -191,7 +191,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
@@ -223,7 +223,7 @@
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] sm:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
+                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
                             <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
                         </figure>
                     </a>
