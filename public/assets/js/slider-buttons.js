@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
         prevBtn = document.querySelector('.slider-w-next-prev .indicators .prev-btn'),
         // Elemen tombol Next
         nextBtn = document.querySelector('.slider-w-next-prev .indicators .next-btn');
+
+    console.log(sliderItemWidth)
     /*
      * Inisialisasi calcsArray dengan nilai awal 0
      * @expected: [0, 1200, 1400]
@@ -24,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ambil total items dalam slider
     const totalItems = sliderItems.length;
     // Tentukan total item yang ditampilkan dalam 1 slide
-    const totalItemsPerSlide = 8;
+    const totalItemsPerSlide = 5;
     // Tentukan total gap yang ada dalam 1 slide
-    const totalGap = 8;
+    const totalGap = 5;
     /*
      * Inisialisasi function expression: Untuk menghasilkan kalkulasi pergerakan setiap perpindahan slide
      * @param idx_slide (number): Digunakan untuk mendapatkan kalkulasinya dalam calcsArray berdasarkan index slide yang diberikan
@@ -44,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
      *      - item terakhir tidak terhitung sebagai 1 slide
      *      - ... - 8) -> ini ditambahkan karena slide pertama tidak termasuk
      */
-    const totalSlides = (totalItems - (totalItems % 8) - 8) / 8;
+    const totalSlides = (totalItems - (totalItems % 5) - 5) / 5;
     // @looping:
     // @explain: looping ini dilakukan untuk melakukan kalkulasi secara langsung dan disimpan ke dalam Array
     for (let i = 0; i < totalSlides; i++) {
@@ -52,13 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
         calcsArray.push(functCalcPerSlide(i + 1))
     }
     // Dapatkan total sisa item akhir
-    const totalSisaItemAkhir = totalItems % 8;
+    const totalSisaItemAkhir = totalItems % 5;
     /*
      * Inisialisasi function expression: Untuk melakukan kalkulasi terhadap slide agar sisa item akhir ditampilkan
      */
     const functCalcLastItem = () => {
         // Kalkulasi
-        return (sliderItemWidth * totalSisaItemAkhir) + (2 * 20)
+        return (sliderItemWidth * totalSisaItemAkhir) + (3 * 20)
     }
     // @if
     // Jika total sisa item akhir bukan 0, maka masukkan hasil kalkulasi ke-dalam calcsArray

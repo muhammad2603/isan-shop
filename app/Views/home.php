@@ -84,147 +84,147 @@
         <!-- List Categories Popular -->
         <section class="list-categories-popular mt-6 overflow-hidden">
             <!-- List Items Categories -->
-            <div class="list-items slider-items relative flex gap-4 sm:gap-8 xl:gap-5 2xl:gap-9">
+            <div class="list-items slider-items relative flex gap-4 sm:gap-8 md:gap-5 xl:gap-5 2xl:gap-9">
                 <div class="item">
                     <a href="<?= base_url('/category/elektronik') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
-                            <img src="/assets/images/tv.png" class="w-full h-full object-cover" alt="TV Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden">
+                            <img src="/assets/images/tv.png" class="w-full h-full object-cover scale-[0.8]" alt="TV Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Elektronik</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/jam-tangan') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200">
-                            <img src="/assets/images/jam-tangan.png" class="w-full h-full object-cover" alt="Jam Tangan Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden">
+                            <img src="/assets/images/jam-tangan.png" class="w-full h-full object-cover scale-[0.8]" alt="Jam Tangan Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Jam Tangan</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/fashion') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/jas.png" class="w-full h-full object-cover" alt="Jas Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/jas.png" class="w-full h-full object-cover scale-[0.8]" alt="Jas Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Fashion</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/baju-kemeja') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/kemeja.png" class="w-full h-full object-cover" alt="Kemeja Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/kemeja.png" class="w-full h-full object-cover scale-[0.8]" alt="Kemeja Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Baju Kemeja</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/pakaian-dalam') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/celana-dalam.png" class="w-full h-full object-cover" alt="Celana Dalam Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/celana-dalam.png" class="w-full h-full object-cover scale-[0.8]" alt="Celana Dalam Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Pakaian Dalam</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/kosmetik') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/kosmetik.png" class="w-full h-full object-cover" alt="Kosmetik Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/kosmetik.png" class="w-full h-full object-cover scale-[0.8]" alt="Kosmetik Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Kosmetik</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/celana') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/celana.png" class="w-full h-full object-cover" alt="Celana Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/celana.png" class="w-full h-full object-cover scale-[0.8]" alt="Celana Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Celana</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/perabotan-rumah') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/perabotan-rumah.png" class="w-full h-full object-cover" alt="Perabotan Rumah Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/perabotan-rumah.png" class="w-full h-full object-cover scale-[0.8]" alt="Perabotan Rumah Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Perabotan Rumah</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/hiasan') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/hiasan.webp" class="w-full h-full object-cover rounded-full" alt="Hiasan Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/hiasan.webp" class="w-full h-full object-cover scale-[0.8] rounded-full" alt="Hiasan Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Hiasan</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita 3</span>
                 </div>
                 <div class="item">
                     <a href="<?= base_url('/category/rok-wanita') ?>">
-                        <figure class="w-[90px] md:w-[120px] p-5 bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 aspect-square">
-                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover" alt="Rok Wanita Image">
+                        <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden aspect-square">
+                            <img src="/assets/images/rok-wanita.png" class="w-full h-full object-cover scale-[0.8]" alt="Rok Wanita Image">
                         </figure>
                     </a>
                     <span class="category-name w-full mt-2 inline-block text-xs sm:text-sm text-center font-semibold cursor-default">Rok Wanita</span>
