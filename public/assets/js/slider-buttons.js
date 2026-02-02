@@ -1,3 +1,4 @@
+const viewportWidth = window.innerWidth;
 // Event Listener: Saat dokumen telah siap dimanipulasi
 document.addEventListener('DOMContentLoaded', () => {
     // Elemen Slider
@@ -13,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Elemen tombol Next
         nextBtn = document.querySelector('.slider-w-next-prev .indicators .next-btn');
 
-    console.log(sliderItemWidth)
     /*
      * Inisialisasi calcsArray dengan nilai awal 0
      * @expected: [0, 1200, 1400]
@@ -26,16 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ambil total items dalam slider
     const totalItems = sliderItems.length;
     // Tentukan total item yang ditampilkan dalam 1 slide
-    const totalItemsPerSlide = 5;
+    const totalItemsPerSlide = (viewportWidth < 500 ? 3 : (viewportWidth < 640 ? 4 : (viewportWidth < 768 || viewportWidth < 1023 ? 5 : (viewportWidth < 1280 ? 6 : viewportWidth < 1536 ? 7 : 8))));
     // Tentukan total gap yang ada dalam 1 slide
-    const totalGap = 5;
+    const totalGap = 4;
+    // Dapatkan lebar gap menggunakan computedStyle agar lebih efektif. Tiap viewport memiliki gap yang berbeda-beda.
+    const gapPixel = parseInt(window.getComputedStyle(slider).gap);
     /*
      * Inisialisasi function expression: Untuk menghasilkan kalkulasi pergerakan setiap perpindahan slide
      * @param idx_slide (number): Digunakan untuk mendapatkan kalkulasinya dalam calcsArray berdasarkan index slide yang diberikan
      */
     const functCalcPerSlide = (idx_slide) => {
         // Kalkulasi
-        return ((sliderItemWidth * totalItemsPerSlide) + (totalGap * 20)) * idx_slide;
+        return ((sliderItemWidth * totalItemsPerSlide) + (totalGap * gapPixel)) * idx_slide;
     }
     /*
      * Ambil total slide keseluruhan (tidak termasuk slide sisa item akhir)
@@ -46,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
      *      - item terakhir tidak terhitung sebagai 1 slide
      *      - ... - 8) -> ini ditambahkan karena slide pertama tidak termasuk
      */
-    const totalSlides = (totalItems - (totalItems % 5) - 5) / 5;
+    const totalSlides = (totalItems - (totalItems % 4) - 4) / 4;
     // @looping:
     // @explain: looping ini dilakukan untuk melakukan kalkulasi secara langsung dan disimpan ke dalam Array
     for (let i = 0; i < totalSlides; i++) {
@@ -54,13 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
         calcsArray.push(functCalcPerSlide(i + 1))
     }
     // Dapatkan total sisa item akhir
-    const totalSisaItemAkhir = totalItems % 5;
+    const totalSisaItemAkhir = totalItems % 4;
     /*
      * Inisialisasi function expression: Untuk melakukan kalkulasi terhadap slide agar sisa item akhir ditampilkan
      */
     const functCalcLastItem = () => {
         // Kalkulasi
-        return (sliderItemWidth * totalSisaItemAkhir) + (3 * 20)
+        return (sliderItemWidth * totalSisaItemAkhir) + (gapPixel * totalSisaItemAkhir)
     }
     // @if
     // Jika total sisa item akhir bukan 0, maka masukkan hasil kalkulasi ke-dalam calcsArray
@@ -115,5 +117,4 @@ document.addEventListener('DOMContentLoaded', () => {
         // @explain: hasil kalkulasi didapatkan dari calcsArray dan indeks item berasal dari indeks slide yang ingin dituju
         slider.style.left = `-${calcsArray.at(currIdxSlide)}px`;
     })
-
 })

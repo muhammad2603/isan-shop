@@ -84,7 +84,7 @@
         <!-- List Categories Popular -->
         <section class="list-categories-popular mt-6 overflow-hidden">
             <!-- List Items Categories -->
-            <div class="list-items slider-items relative flex gap-4 sm:gap-8 md:gap-5 xl:gap-5 2xl:gap-9">
+            <div class="slider-items relative flex gap-4 sm:gap-8 md:gap-5 xl:gap-5 2xl:gap-9">
                 <div class="item">
                     <a href="<?= base_url('/category/elektronik') ?>">
                         <figure class="w-[90px] md:w-[120px] mx-auto bg-gray-100 rounded-full hover:bg-blue-600/35 transition duration-200 overflow-hidden">
