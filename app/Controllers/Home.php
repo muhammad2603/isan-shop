@@ -1,5 +1,5 @@
 <?php
-
+// Route Home
 namespace App\Controllers;
 
 class Home extends BaseController

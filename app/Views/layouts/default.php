@@ -17,10 +17,12 @@
             <!-- Header Identity -->
             <div class="header-identity hidden sm:block">
                 <!-- Brand Logo -->
-                <span class="brand">
-                    <h1 class="text-lg sm:text-2xl 2xl:text-3xl">iSan Shop</h1>
-                </span>
-                <!-- Akhir Brand Logo -->
+                <?php if ($title === 'Beranda'): ?>
+                    <h1 class="brand text-lg sm:text-2xl 2xl:text-3xl">iSan Shop</h1>
+                <?php else: ?>
+                    <h2 class="brand text-lg sm:text-2xl 2xl:text-3xl">iSan Shop</h1>
+                    <?php endif; ?>
+                    <!-- Akhir Brand Logo -->
             </div>
             <!-- Akhir Header Identity -->
             <!-- Search Box -->
@@ -63,7 +65,11 @@
     </header>
     <!-- Akhir Header -->
     <!-- Content -->
-    <?= $this->renderSection('content') ?>
+    <!-- Main Content -->
+    <main class="sm:pt-[30px] px-[10px] sm:px-[30px] xl:pt-[20px] pb-[160px] xl:pb-[200px] xl:px-[80px]">
+        <?= $this->renderSection('content') ?>
+    </main>
+    <!-- Akhir Main -->
     <!-- Akhir Content -->
     <!-- Footer -->
     <footer class="px-[10px] py-[40px] sm:px-[30px] lg:px-[80px] sm:py-[60px] lg:py-[40px] xl:py-[60px] bg-gray-100">
@@ -72,7 +78,7 @@
             <!-- User Benefits -->
             <div class="user-benefits flex flex-col lg:flex-row sm:items-center lg:justify-center xl:justify-between 2xl:justify-center gap-4.5 xl:gap-0 2xl:gap-8">
                 <!-- Box -->
-                <div class="box w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
+                <div class="box w-3/4 mx-auto sm:mx-0 sm:w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
                     <!-- Figure Image Fast Delivery -->
                     <figure class="w-[45px]">
                         <img src="/assets/icons/fast-delivery.png" alt="Fast Delivery Image">
@@ -87,7 +93,7 @@
                 </div>
                 <!-- Akhir Box -->
                 <!-- Box -->
-                <div class="box w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
+                <div class="box w-3/4 mx-auto sm:mx-0 sm:w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
                     <!-- Figure Image Discount -->
                     <figure class="w-[45px]">
                         <img src="/assets/icons/voucher.png" alt="Discount Image">
@@ -102,7 +108,7 @@
                 </div>
                 <!-- Akhir Box -->
                 <!-- Box -->
-                <div class="box w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
+                <div class="box w-3/4 mx-auto sm:mx-0 sm:w-fit p-4 flex gap-4 bg-white rounded-sm shadow-md">
                     <!-- Figure Image Shirt -->
                     <figure class="w-[45px]">
                         <img src="/assets/icons/shirt.png" alt="Shirt Image">
