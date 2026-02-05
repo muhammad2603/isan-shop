@@ -13,6 +13,10 @@
     flex-basis: calc((100% - (16px * 2)) / 3);
 }
 
+.custom-shadow-inner-depth {
+    box-shadow: inset 1px 2px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
 @media (width >= 500px) {
     .list-categories-popular .slider-items .item {
         flex-basis: calc((100% - (20px * 3)) / 4);

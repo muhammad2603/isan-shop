@@ -27,7 +27,7 @@
             <!-- Akhir Header Identity -->
             <!-- Search Box -->
             <div class="search-box relative sm:basis-[45%] xl:basis-[30%] 2xl:basis-[35%]">
-                <input type="text" placeholder="Cari produk favorit anda..." class="search-input w-full h-full py-[7px] sm:py-0 px-8 bg-gray-100 text-gray-600/85 text-sm rounded-full focus:outline-none">
+                <input id="searchProducts" type="text" placeholder="Cari produk favorit anda..." class="search-input w-full h-full py-[7px] sm:py-0 px-8 bg-gray-100 text-gray-600/85 text-sm rounded-full focus:outline-none">
                 <img src="/assets/icons/sparkle.png" alt="Sparkle Image" class="absolute top-[50%] left-1 translate-y-[-50%]">
                 <img src="/assets/icons/search.png" alt="Search Image" class="absolute top-[50%] right-1 translate-y-[-50%]">
                 <!-- Search Box Output -->
